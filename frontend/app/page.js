@@ -6,7 +6,7 @@ import DashboardView from '../components/DashboardView';
 import QRScanner from '../components/QRScanner';
 import ManualEntryForm from '../components/ManualEntryForm';
 
-const API_URL = 'https://authenticator-app-backend.vercel.app/api';
+const API_URL = 'https://authenticator-app-be.onrender.com/api';
 
 // Configure otplib to match server settings
 authenticator.options = {
