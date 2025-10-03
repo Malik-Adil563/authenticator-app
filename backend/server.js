@@ -101,6 +101,10 @@ function parseOtpauthUrl(url) {
 
 // ---------------- Routes ---------------- //
 
+app.get("/", (req, res) => {
+  res.send("Backend running...");
+});
+
 // 1. Register/Create User
 app.post('/api/register', async (req, res) => {
   try {
