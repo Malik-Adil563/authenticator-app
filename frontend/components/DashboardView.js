@@ -29,9 +29,10 @@ export default function DashboardView({
         <Header email={email} onLogout={onLogout} />
 
         {message && (
-          <div className="bg-gray-800 text-white p-4 rounded-xl mb-6 shadow-lg">
-            {message}
-          </div>
+          <div className="text-white p-4 rounded-xl mb-6 shadow-lg bg-gradient-to-r from-[rgba(102,6,121,1)] via-[rgba(95,1,212,1)] to-[rgba(209,92,203,1)]">
+  {message}
+</div>
+
         )}
 
         <div className="grid md:grid-cols-2 gap-6">
